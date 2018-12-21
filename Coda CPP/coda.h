@@ -6,7 +6,7 @@
 #include <stdio.h>
 using namespace std;
 
-//implementazione della CODA CIRCOLARE con l'uso di un array di max 10 elementi
+//implementazione della struttura di dati astratta di tipo CODA con l'uso di un array di max 10 elementi
 const int MAX = 10;
 int Coda[MAX];
 int Fine;
