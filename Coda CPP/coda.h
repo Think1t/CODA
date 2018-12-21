@@ -75,8 +75,10 @@ void StampaSuFile(){
 		else{
 			for (I=0; I<=Fine; I++){
 				cout << setw(5) << Coda[I];
-				cout << "	- Fine" << endl;
+				coda << setw(5) << Coda[I]
 			}
+			cout << "	- Fine" << endl;
+			coda << "	- Fine" << endl;
 			cout << "La coda e' stata salvata nel file coda_cepparulo_giacomo.txt" << endl;
 		}
 		coda.close();
